@@ -1,0 +1,56 @@
+body {
+    background-color: goldenrod;
+    cursor: url('cursor.cur'), pointer;
+    font-size: xx-large;
+    font-family: PTSans-Bold, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html {
+    background-color: goldenrod;
+    cursor: url('cursor (1).cur'), pointer;
+}
+
+#topBar {
+    background-color: rgb(255, 81, 0);
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    height: 2vw;
+    top: 0;
+    margin-bottom: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: right;   
+
+}
+
+.vids {
+    width: 10vw;
+    height: 10vw;
+    background-color: black;
+    border-color: dimgray;
+    border-style: inset;
+    border-width: 1vw;
+    color: rgb(255, 81, 0);
+    vertical-align: bottom;
+    background-repeat: no-repeat; 
+    font-size: medium;
+}
+
+button {
+    background-color: rgb(255, 81, 0);
+    border-style: ridge;
+    border-width: 25px ;
+}
+
+button :hover {
+    background-color: rgb(255, 196, 0);
+}
+
+#code_inpt {
+    position: fixed; 
+    left: 40vw; 
+    top: 5vw;
+    font-size: xx-large;
+    width: 55vw;
+    
+}
