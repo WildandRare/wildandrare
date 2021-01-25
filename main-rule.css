@@ -45,3 +45,12 @@ button {
 button :hover {
     background-color: rgb(255, 196, 0);
 }
+
+#code_inpt {
+    position: fixed; 
+    left: 40vw; 
+    top: 5vw;
+    font-size: xx-large;
+    width: 55vw;
+    
+}
